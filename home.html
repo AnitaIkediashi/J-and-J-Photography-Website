@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <title>J & J Photography Website</title>
+</head>
+<body>
+    <!-- header section starts here -->
+    <header class="header d-flex align-items-center justify-content-between">
+        <div class="logo d-flex align-items-center">
+            <i class="fas fa-camera me-1"></i>
+            <a href="#home"><h2>j & j</h2></a>
+        </div>
+        <nav class="nav-bar">
+            <a href="#home" class="active">home</a>
+            <a href="#about">about</a>
+            <a href="#gallery">gallery</a>
+            <a href="#testimonials">testimonials</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </header>
+    <!-- header section ends here -->
+
+    <!-- home section starts here -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>enjoy the essence of Photography</h3>
+            <p>capture the moment . express your feeling . all in one picture</p>
+            <a href="#">schedule appointment</a>
+        </div>
+        <div class="socials">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-github-alt"></i>
+        </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- about section starts here -->
+    <section class="about" id="about">
+        <div class="heading text-center position-relative">
+            <h3>about j & j</h3>
+        </div>
+        <div class="about-wrapper d-flex align-items-center flex-wrap">
+            <div class="image">
+                <img src="images/about.jpg" alt="about me">
+            </div>
+            <div class="content">
+                <h4>what j & j Photography is all about</h4>
+                <p class="lh-lg py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugit nihil voluptas ratione accusamus quod nostrum natus suscipit optio molestiae tempora atque maxime repudiandae ea porro voluptate voluptatem magnam velit laudantium, delectus veritatis expedita cupiditate libero. Voluptates, est adipisci excepturi dolores quas libero! Modi similique autem temporibus sit iusto excepturi...</p>
+                <a href="#" class="text-decoration-none d-inline-block">read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends here -->
+
+    <!-- gallery section starts here -->
+    <section class="gallery" id="gallery">
+        <div class="heading text-center position-relative">
+            <h3>my latest works</h3>
+        </div>
+        <div class="gallery-wrapper">
+            <div class="boxes">
+                <img src="images/wedding-4.jpg" alt="">
+                <div class="content">
+                    <h4>bride and groom</h4>
+                    <div class="genre">
+                        <p>weddings</p>
+                        <a href="wedding.html">view</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <img src="images/portrait-4.jpg" alt="">
+                <div class="content">
+                    <h4>face time</h4>
+                    <div class="genre">
+                        <p>portraits</p>
+                        <a href="portrait.html">view</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <img src="images/nature-4.jpg" alt="">
+                <div class="content">
+                    <h4>mother nature</h4>
+                    <div class="genre">
+                        <p>nature</p>
+                        <a href="nature.html">view</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <img src="images/sport-4.jpg" alt="">
+                <div class="content">
+                    <h4>activities and fitness</h4>
+                    <div class="genre">
+                        <p>sports</p>
+                        <a href="sports.html">view</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <img src="images/fashion-4.jpg" alt="">
+                <div class="content">
+                    <h4>beauty and fashion</h4>
+                    <div class="genre">
+                        <p>fashion</p>
+                        <a href="fashion.html">view</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <img src="images/street-4.jpg" alt="">
+                <div class="content">
+                    <h4>life on the street</h4>
+                    <div class="genre">
+                        <p>outdoor</p>
+                        <a href="street.html">view</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <img src="images/travel-4.jpg" alt="">
+                <div class="content">
+                    <h4>adventure</h4>
+                    <div class="genre">
+                        <p>travel</p>
+                        <a href="travel.html">view</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section ends here -->
+
+    <!-- testimonial section starts here -->
+    <section class="testimonials" id="testimonials">
+        <div class="heading text-center position-relative">
+            <h3>testimonials</h3>
+        </div>
+        <div id="carouselTestimonail" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselTestimonail" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselTestimonail" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselTestimonail" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/review-1.jpg" class="carouselImage" alt="">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, mollitia? Nesciunt, sit dolores!</p>
+                  <div class="quote">jane doe</div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/review-2.jpg" class="carouselImage" alt="">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, mollitia? Nesciunt, sit dolores!</p>
+                  <div class="quote">john doe</div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/review-3.jpg" class="carouselImage" alt="">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, mollitia? Nesciunt, sit dolores!</p>
+                  <div class="quote">jane doe</div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- testimonial section ends here -->
+
+    <!-- contact section starts here -->
+    <section class="contact" id="contact">
+        <div class="heading text-center position-relative">
+            <h3>contact us</h3>
+        </div>
+        <div class="content-wrapper">
+            <div class="content text-center">
+                <h4>looking for a photographer?</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus enim cumque provident cum totam non tempora dolor ad iure beatae?</p>
+                <div class="information">for more information about my works  <a href="#footer">click here</a></div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends here -->
+
+    <!-- footer section starts here -->
+    <section class="footer" id="footer">
+        <div class="row">
+            <div class="col-md-3 col-sm-4">
+                <a href="#home" class="text-decoration-none logo">j & j photography</a>
+                <a href="#" class="text-decoration-none">
+                    <address>oyadiran estate,<br>yaba, lagos state,<br> nigeria</address>
+                    <div class="number">+234- 8100406393</div>
+                </a>
+                <div class="openingHours">9:00am - 5:00pm</div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="links">
+                    <h4>quick links</h4>
+                    <a href="#home" class="text-decoration-none">home</a>
+                    <a href="#about" class="text-decoration-none">about</a>
+                    <a href="#gallery" class="text-decoration-none">gallery</a>
+                    <a href="#testimonials" class="text-decoration-none">testimonials</a>
+                    <a href="#contact" class="text-decoration-none">contact</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="socials">
+                    <h4>follow us on</h4>
+                    <a href="https://twitter.com/Anita_ikediashi" class="text-decoration-none">twitter</a>
+                    <a href="https://www.linkedin.com/in/anita-ikediashi-a61668188" class="text-decoration-none">linkedin</a>
+                    <a href="https://github.com/AnitaIkediashi" class="text-decoration-none">github</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+               <div class="newsletter-form">
+                <div class="title">Subscribe to our newsletters to get more informationon latest products.</div>
+                    <form>
+                        <input type="text" placeholder="Enter your email">
+                        <button>send</button>
+                    </form>
+               </div>
+            </div>
+        </div>
+        <div class="credits">
+            created and designed by <span>ikediashi anita ifeoma</span>
+            <br>
+            all rights reserved &copy;
+        </div>
+    </section>
+    <!-- footer section ends here -->
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
